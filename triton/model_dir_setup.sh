@@ -13,7 +13,7 @@ platform: "onnxruntime_onnx"
 max_batch_size: 32
 input [
   {
-    name: "input"
+    name: "input.1"
     data_type: TYPE_FP32
     format: FORMAT_NCHW
     dims: [ 3, 224, 224 ]
